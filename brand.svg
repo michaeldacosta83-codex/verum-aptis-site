@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 112" role="img" aria-labelledby="title">
+  <title id="title">Verum Aptis</title>
+  <g fill="#142548">
+    <path d="M10 78 45 17 80 78H63L45 47 27 78z"/>
+    <path d="m32 78 24-42 24 42H63L56 65 49 78z"/>
+  </g>
+  <path fill="#ab853e" d="m77 14 8-14 16 0-8 14z"/>
+  <path fill="#ab853e" d="M82 48h10l5 9-5 9H82l-5-9z"/>
+  <text x="112" y="52" fill="#142548" font-family="Arial,sans-serif" font-size="34" font-weight="600" letter-spacing="5">VERUM</text>
+  <text x="112" y="85" fill="#ab853e" font-family="Arial,sans-serif" font-size="25" font-weight="500" letter-spacing="7">APTIS</text>
+</svg>
+
