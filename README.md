@@ -4,9 +4,9 @@ Responsive one-page marketing site based on the supplied Verum Aptis brand and b
 
 ## Enquiry form
 
-The contact section links to the Verum Aptis lead form hosted in Zapier Interfaces. Form submissions are stored in the Zapier Table `Verum Aptis Website Enquiries` with name, email, enquiry, company, received date, status, and follow-up notes. The form displays a confirmation after submission.
+The contact section sends form submissions to the Verum Aptis Zapier Catch Hook. It sends name, email, company, enquiry, source, and submission timestamp as a form-encoded POST. No enquiry test submission has been sent while configuring the site.
 
-The Gmail acknowledgement Zap is drafted separately in the Verum Aptis Zapier account. It is not active yet; Zapier requires a first table record before it can verify and activate the workflow.
+The Gmail acknowledgement workflow is configured in Zapier and needs a real first enquiry to verify its field mappings before activation.
 
 ## Hosting
 
