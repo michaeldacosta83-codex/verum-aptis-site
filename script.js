@@ -27,13 +27,6 @@ if (enquiryForm) {
     if (!enquiryForm.reportValidity()) return;
 
     const formData = new FormData(enquiryForm);
-    if (String(formData.get('website') || '').trim()) {
-      enquiryForm.reset();
-      if (status) status.textContent = 'Thanks—your enquiry is on its way. We’ll be in touch personally.';
-      return;
-    }
-
-    formData.delete('website');
     formData.set('source', 'Verum Aptis website');
     formData.set('submitted_at', new Date().toISOString());
     if (submitButton) {
